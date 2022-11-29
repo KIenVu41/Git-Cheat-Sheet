@@ -58,7 +58,8 @@
 | ` git fetch` | Download changes from remote without making any changes to files in the working directory. |
 | ` git pull` | Download others commits from remote and apply to working directory. |
 | ` git push` | Upload local commits to remote. |
-
+| ` git switch <rbranch> ` | fetch remote branch and auto set upstream (branch exists in remote repo but not on local) |
+| ` git fetch <remote> <rbranch>:<lbranch> ` | fetch remote branch |
 ### Branches in git:
 | Command | Description |
 |---------|-------------|
